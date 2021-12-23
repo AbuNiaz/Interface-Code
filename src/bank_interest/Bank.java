@@ -24,7 +24,7 @@ class StandardChartered_Bank extends Bank{
 @Override
 int getRateOfInterest(){return 12;} 
 }
-
+//This is test class, call to every child class Method
 class Test2{ 
        public static void main(String args[]){ 
            Agrani_Bank s=new Agrani_Bank(); 
